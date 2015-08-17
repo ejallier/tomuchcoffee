@@ -1,0 +1,10 @@
+.site-header{
+	background: url(../img/header-bg.jpg) center no-repeat;
+	background-size: cover;
+}
+
+
+.site-footer{
+	background: #333;
+	color : white;
+}
