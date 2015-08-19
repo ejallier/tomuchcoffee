@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'social';
-  src: url('../font/social.eot?72973907');
-  src: url('../font/social.eot?72973907#iefix') format('embedded-opentype'),
-       url('../font/social.svg?72973907#social') format('svg');
+  src: url('font/social.eot?72973907');
+  src: url('font/social.eot?72973907#iefix') format('embedded-opentype'),
+       url('font/social.svg?72973907#social') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'social';
-    src: url('../font/social.svg?72973907#social') format('svg');
+    src: url('font/social.svg?72973907#social') format('svg');
   }
 }
 */
