@@ -1,4 +1,4 @@
-<form class="form-horizontal">
+<form class="form-horizontal" method="post" action="contact.php">
 <fieldset>
 
 <!-- Form Name -->
@@ -8,7 +8,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="mail">e-mail</label>
   <div class="col-md-4">
-  <input id="mail" name="mail" type="text" placeholder="tapez votre e-mail" class="form-control input-md" required="">
+  <input id="mail" name="mail" type="email" placeholder="tapez votre e-mail" class="form-control input-md">
 
   </div>
 </div>
@@ -35,6 +35,7 @@
   <label class="col-md-4 control-label" for="envoyer"></label>
   <div class="col-md-4">
     <button type="submit" id="envoyer" name="envoyer" class="btn btn-primary">Envoyer</button>
+
   </div>
 </div>
 
